@@ -24,7 +24,7 @@ footer {
 
 nav {
   display: flex;
-  justify-content: space-between; /*pushes the logo to the lft, the nav to the right*/
+  justify-content: space-evenly; /*pushes the logo to the lft, the nav to the right*/
   margin-right: 60px;
 }
 
@@ -96,6 +96,7 @@ p {
 
 .socials {
   padding-bottom: 200px;
+  margin: 30px;
 }
 
 .logo {
@@ -105,12 +106,15 @@ p {
 }
 .social {
   margin: 20px;
+  padding: 30px;
 }
 
 .sub-section {
   display: flex;
   justify-content: space-around;
   padding: 80px;
+  flex-direction: column;
+  text-align: center;
 }
 .sub-section-alternative {
   display: flex;
@@ -201,4 +205,18 @@ a {
   .logo {
     display: none;
   }
+}
+
+h6 {
+  display: flex;
+  /* flex-direction: column;
+  /* text-align: center; */
+  justify-content: space-between; */
+}
+
+.essay-card {
+  width: 400px;
+  height: 300px;
+  box-shadow: 5px 5px 20px rgb(173, 169, 169);
+  margin: 10px;
 }
