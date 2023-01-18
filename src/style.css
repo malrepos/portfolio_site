@@ -53,7 +53,7 @@ h2 {
 }
 p {
   margin: 0;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
 }
 .subtext {
@@ -216,7 +216,15 @@ h6 {
 
 .essay-card {
   width: 400px;
-  height: 300px;
+  height: 600px;
   box-shadow: 5px 5px 20px rgb(173, 169, 169);
-  margin: 10px;
+  margin: 100px;
+}
+#essays{
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.substack-link{
+  margin: 70px;
 }
