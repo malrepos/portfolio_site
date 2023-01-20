@@ -131,12 +131,12 @@
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="50"
+                    height="50"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      fill="currentColor"
+                    fill="white"
                       d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11L22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"
                     />
                   </svg>
@@ -153,16 +153,17 @@
         <h2>Essays</h2>
         <p>Latest Essay</p>
         <div class="essay-card">
-          <img
+          <a href="https://open.substack.com/pub/blockchainultra/p/i-like-the-bear?r=6pj0v&utm_campaign=post&utm_medium=web" target="_blank"><img
             class="project-image"
             src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2fe8c91b-d990-41d6-940f-45d79a98ed8d_640x800.jpeg"
             alt="Project 1 image"
-          />
-          <h3>I Like The Bear</h3>
+          /></a>
+          
+          <a href="https://open.substack.com/pub/blockchainultra/p/i-like-the-bear?r=6pj0v&utm_campaign=post&utm_medium=web" target="_blank"><h3>I Like The Bear</h3></a>
           <p class="subtext">I am more excited about the prospects during a bear. I have less anxiety, less fear. I am more calm and steady about my involvement. The bull crypto is intense. </p>
           <hr />
           <p class="subtext project-link">
-            <a href="https://open.substack.com/pub/blockchainultra/p/i-like-the-bear?r=6pj0v&utm_campaign=post&utm_medium=web" target="_blank">View Here</a>
+            <a href="https://open.substack.com/pub/blockchainultra/p/i-like-the-bear?r=6pj0v&utm_campaign=post&utm_medium=web" target="_blank">View Full Essay</a>
           </p>
         </div>
       </div>
@@ -239,7 +240,19 @@
     </section>
     <footer id="contact">
       <h2>Contact Me</h2>
-      <p>mal@malcolm-miller.com</p>
+      <p></p>
+
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+
     </footer>
     <script src="src/app.js"></script>
   </body>
