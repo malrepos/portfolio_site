@@ -230,3 +230,34 @@ h6 {
 .substack-link {
   margin: 70px;
 }
+.input-email {
+  margin: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+.input-name {
+  border-radius: 20px;
+  text-align: center;
+}
+#message {
+  padding-bottom: 5px;
+  margin: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  /* background-color: #deb992; */
+  /* color: #1ba098; */
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  /* padding-top: 5px; */
+  /* margin-top: 20px; */
+}
+.btn:hover {
+  background-color: #1ba098;
+  cursor: pointer;
+}
