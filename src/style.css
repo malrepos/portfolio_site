@@ -112,7 +112,7 @@ p {
 .sub-section {
   display: flex;
   justify-content: space-around;
-  padding: 80px;
+  padding: 30px;
   flex-direction: column;
   text-align: center;
 }
@@ -120,7 +120,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
+  padding: 40px;
 }
 
 .headshot {
@@ -224,12 +224,13 @@ h6 {
 }
 #essays {
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .substack-link {
-  margin: 70px;
+  margin: 50px;
 }
+
 .input-email {
   margin: 15px;
   border-radius: 20px;
@@ -260,4 +261,7 @@ h6 {
 .btn:hover {
   background-color: #1ba098;
   cursor: pointer;
+}
+#contact {
+  padding: 20px;
 }
